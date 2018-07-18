@@ -12,6 +12,7 @@ import 'spectre.css/dist/spectre.min.css';
 import 'spectre.css/dist/spectre-icons.css';
 import './index.css';
 
+
 ReactDOM.render(
 	<Router>
 		<div>

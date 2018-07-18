@@ -4,22 +4,22 @@ import axios from 'axios'
 class Home extends Component {
     constructor() {
         super()
-        this.state = {
-            habits: [],
-            username: ''
-        }
-        this.getHabits = this.getHabits.bind(this)
-        this.componentDidMount = this.componentDidMount.bind(this)
+        // this.state = {
+        //     habits: [],
+        //     username: ''
+        // }
+        // this.getHabits = this.getHabits.bind(this)
+        // this.componentDidMount = this.componentDidMount.bind(this)
     }
 
-    componentDidMount(){
-        this.getHabits();
-    }
-    getHabits() {
-        axios.get('/api/user/habits').then(response => {
-          console.log('THIS ONE IN THE HOME PAGE', response);
-        })
-    }
+    // componentDidMount(){
+    //     this.getHabits();
+    // }
+    // getHabits() {
+    //     axios.get('/api/user/habits').then(response => {
+    //       console.log('THIS ONE IN THE HOME PAGE', response);
+    //     })
+    // }
 
     render() {
         const imageStyle = {
