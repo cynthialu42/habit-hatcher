@@ -58,6 +58,7 @@ class Home extends Component {
         {this.state.loggedIn &&
           <p>Join the party, {this.state.username}!</p>
         }
+        <p>This is the home page!</p>
         {/* Routes to different components
         <Route
           exact path="/"
